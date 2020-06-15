@@ -7,6 +7,6 @@ phases:
       - dotnet publish -c release -o ./build_output ./src/HelloWorldWebCore/HelloWorldWebCore.csproj
 artifacts:
   files:
-    - src/HelloWorldWebCore/build_output/*
+    - build_output/*
     - appspec.yml
     - installApp.sh
